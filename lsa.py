@@ -41,7 +41,7 @@ if __name__ == '__main__':
     try:
         label_ = df[label]
     except Exception as e:
-        logging.error(label + ' 标签列名错误！')ç
+        logging.error(label + ' 标签列名错误！')
         exit()
 
     try:
