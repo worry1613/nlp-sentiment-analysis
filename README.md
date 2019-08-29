@@ -16,3 +16,10 @@
 3.特征工程，TFIDF，LSI，W2V  
 4.算法，LR,SVM,BAYES  
 5.效果评价  
+
+## 如何用不用   
+1.数据目录下的p1.py文件，生成分词后的词料库文件和word2vec语料库文件  
+2.tfidf.py生成TFIDF特征并用3种算法(LR,SVM,BAYES)分类，10折交叉验证  
+3.lsa.py生成LSA特征并用3种算法(LR,SVM,BAYES)分类，10折交叉验证  
+4.w2v_model.py生成word2vec模型  
+5.word2vector.py生成word2vec特征并用3种算法(LR,SVM,BAYES)分类，10折交叉验证  
